@@ -1,3 +1,9 @@
-def my_each # put argument(s) here
-  # code here
-end
+def my_collect(array)
+  i = 0
+ while i < array.length
+   binding.pry
+  yield(array[i])
+    i += 1
+ end
+  array
+ end
