@@ -1,4 +1,4 @@
-def my_collect(array)
+def my_each(array)
   i = 0
  while i < array.length
    binding.pry
@@ -6,4 +6,6 @@ def my_collect(array)
     i += 1
  end
   array
- end
+end
+
+pry
