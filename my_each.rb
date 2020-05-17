@@ -1,3 +1,15 @@
-def my_each # put argument(s) here
-  # code here
+collection = Array.new
+collection = [1, 2, 3, 4]
+
+def my_each(collection)
+  i = 0 
+  while (i < collection.length) do 
+  yield collection[i]
+  
+  i += 1 
+  
+  
+end 
+  return collection
 end
+
